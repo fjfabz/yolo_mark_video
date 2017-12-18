@@ -8,14 +8,17 @@ python yolo_mark_video.py [video_folder]
 
 
 Move mouse and hit space. So marked txt and captured image are written in "img" folder.
-Marked size can change to hit button 1,2,3,4,5,6.
 
-1:bigger
-2:smaller
-3:bigger width
-4:smaller width
-5:bigger height
-6:smaller height
+Class No can be changed to hit 0-9 button.
+
+Marked size can be changed to hit button Q,W,E,R,T,Y.
+
+Q:bigger
+W:smaller
+E:bigger width
+R:smaller width
+T:bigger height
+Y:smaller height
 
 
 You can confirm the marking by using Yolo_mark.
