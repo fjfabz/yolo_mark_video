@@ -39,7 +39,7 @@ def click_and_mark(event, x, y, flags, param):
     mousex=x
     mousey=y
     clone = frame.copy()
-    cv2.putText(clone, 'class {}, [space]:mark, [s]:stop, [1]:big, [2]:small, [esc]:next'.format(classno),
+    cv2.putText(clone, 'class {}, [space]:mark, [s]:stop, [q]:big, [w]:small, [esc]:next'.format(classno),
                 (10, img_height - 20), cv2.FONT_HERSHEY_PLAIN, 1.2,
                 (255, 255, 255), 1, cv2.LINE_AA)
     if event == cv2.EVENT_MOUSEMOVE:
